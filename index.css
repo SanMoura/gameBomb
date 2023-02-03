@@ -1,0 +1,70 @@
+body{
+  background-color: rgb(55, 55, 55) ;
+  color: white ;
+  font-family: 'Roboto', sans-serif;
+}
+*, *::before, *::after{
+  box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  -o-box-sizing: border-box;  
+}
+
+.levelInput{
+  /* width: 1em; */
+  height: 3em;
+}
+
+#containerFull {
+  width: 780px;
+  margin: 0 auto;
+}
+
+#container {
+  
+  width: 566px;
+  height: 563px;
+  border-radius: 5px;
+  cursor: pointer;
+  float: left;
+}
+
+.row {
+  clear: both;
+}
+
+.row div {
+  font-size: 3em;
+  float: left;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+}
+
+
+.line-1 div  {
+  background: rgb(200, 200, 200);
+  border: 1px solid white;
+  color: #FFF
+}
+
+.line-2 div:nth-child(2n)  {
+  background: #000;
+  color: #FFF
+}
+
+#pontuacao {
+  border: 1px solid #000;
+  width: 200px;
+  height: 50px;
+  float:left;
+  padding: 6px;
+  font-size: 30px;
+  text-align: right;
+  margin-left: 5px;
+  border-radius: 5px; 
+}
+
+.mensagem {
+  text-align: center;
+}
